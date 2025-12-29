@@ -1,4 +1,20 @@
+
+# Dependencies
+node_modules/
 venv/
 __pycache__/
+.env
+
+# System
 .DS_Store
-.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Large data files
+*.csv
+*.dbn.zst
+
+# Output images (optional, but usually artifacts)
+# output.png
+# output2.png
