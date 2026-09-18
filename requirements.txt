@@ -1,0 +1,20 @@
+# Python dependencies for the TSI trading / backtesting project.
+# (The data downloader download_dukascopy_full.js uses the Node package
+#  dukascopy-node declared in package.json, installed via `npm install`.)
+
+# Core data / numerics / plotting
+pandas>=2.2,<3
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+
+# Market data: reads the .dbn.zst historical futures files
+databento>=0.34
+
+# Interactive Brokers live trading bots (Estrategia_TSI*.py)
+ib_insync>=0.9.86
+nest_asyncio>=1.6
+
+# Notebook execution (01_load_and_visualize.ipynb)
+jupyter>=1.0
+ipykernel>=6.29
+nbconvert>=7.16

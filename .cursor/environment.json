@@ -1,0 +1,4 @@
+{
+  "name": "TSI Trading & Backtesting",
+  "install": "bash .cursor/install.sh"
+}
